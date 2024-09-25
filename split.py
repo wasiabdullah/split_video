@@ -4,7 +4,7 @@ from moviepy.editor import VideoFileClip
 
 
 # Replace the filename below.
-required_video_file = "filename.mp4"
+# required_video_file = "filename.mp4"
 video_folder = 'video_folder'
 with open("times.txt") as f:
   times = f.readlines()
