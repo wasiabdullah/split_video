@@ -56,9 +56,11 @@ for video in videos:
     vid_dur = get_video_duration(video)
     print(f"Processing {vidname} with duration {vid_dur} seconds.")
     
-    chunk_length = 0
+    
+    # you can hardcode the legth of chunk or take input from user for each file
+    chunk_length = 400
     # take in put for chunk lenght from user for each video
-    chunk_length = int(input(f"Enter chunk Length for {vidname} of duration {vid_dur} in seconds (only integers) : "))
+    # chunk_length = int(input(f"Enter chunk Length for {vidname} of duration {vid_dur} in seconds (only integers) : "))
     
     # Initialize start and end times
     starttime = 0
