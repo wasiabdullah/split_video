@@ -1,2 +1,8 @@
+.gitignore
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.mov
 video_folder/
 new_video/
